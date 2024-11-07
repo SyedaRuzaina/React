@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Docs = () => {
@@ -19,7 +20,7 @@ const Docs = () => {
         <nav>
           <h3 className="text-sm font-semibold mb-2 ">Documentation</h3>
           <ul className="text-blue-600 leading-loose">
-            <li> <a href="">Components</a></li>
+            <li> <Link to={'/components'} href="">Components</Link></li>
             <li><a href="">Templates</a></li>
             <li><a href="">Screencasts</a></li>
             <li><a href="">Playground</a></li>

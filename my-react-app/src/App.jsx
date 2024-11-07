@@ -6,7 +6,7 @@ import MyPage from './pages/MyPage'
 import AboutMe from './pages/Components'
 import { Navigate, Route, Router, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Docs from './pages/docs'
+import Docs from './pages/Docs'
 import { Link } from 'react-router-dom'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <NavBar />
       <Routes>
         {/* <Route exact path='/' redirect={'/home'} element={<MyPage />} /> */}
-        <Route path='/about' element={<AboutMe />} />
+        <Route path='/components' element={<AboutMe />} />
 
         <Route path='/docs' element={< Docs />}/>
 
